@@ -1,0 +1,13 @@
+.address-block{width: 100%; display: inline-block; position: relative;}
+/*.address-block{width: 100%;}*/
+/*.addr-selected{width: 100%;}*/
+.addr-selected .btn{text-align: left; border-radius: 8px;}
+.addr-selected .btn:focus{box-shadow: 1px 1px 2px #42a5f5 inset, -1px -1px 2px #42a5f5 inset !important;}
+.addr-selected .btn span{margin-right: 3px;}
+.addr-selected .placeholder{color: #ccc;}
+.addr-select-box{width: 100%; visibility: hidden; position: absolute; z-index: 1001;background-color: #fff; border: 1px solid #2196f3;}
+.addr-select-box.active{visibility: visible;}
+.addr-select-box .tab-pane a{color: inherit; text-decoration: none; cursor: pointer; outline: 0; padding: 5px;}
+.addr-select-box .tab-pane a:hover,a:focus{color: #2196f3; text-decoration: none; border-radius: 5px;}
+.addr-select-box .nav-tabs .nav-link{color: #2196f3; border: 0; border-radius: 0;}
+.addr-select-box .nav-tabs .nav-link.active{color: rgba(255, 255, 255, 0.87) !important; background-color: #2196f3 !important;}

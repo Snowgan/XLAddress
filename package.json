@@ -1,0 +1,19 @@
+{
+  "name": "XLAddress",
+  "version": "1.0.0",
+  "description": "A convenient util to select address info by Angular directive.",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "author": "Snowgan",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
